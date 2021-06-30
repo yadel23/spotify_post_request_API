@@ -25,7 +25,7 @@ artist_id = '3TVXtAsR1Inumwj472S9r4?si=z1z0cXVQTtefzolOGqO6Zw&dl_branch=1'
 r = requests.get(base_url + 'artists/' + artist_id, headers=headers)
 request_jsonformat = r.json()
 
-for key, value in vs.items():
+for key, value in request_jsonformat.items():
   if key == 'name' or key == 'popularity' or key == 'genres':
    print(key, ":", value)   
   
