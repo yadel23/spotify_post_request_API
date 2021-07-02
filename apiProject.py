@@ -1,4 +1,4 @@
-import requests, spotipy, json, sqlalchemy, os
+import requests, spotipy, json, sqlalchemy
 import pandas as pd
 from sqlalchemy import create_engine
 
