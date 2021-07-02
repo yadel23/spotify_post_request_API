@@ -91,5 +91,5 @@ def main():
     data_frame = build_dataframe(dic)
     set_dataframe(data_frame)    
     
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
