@@ -17,6 +17,7 @@ jobs:
           python -m pip install --upgrade pip pytest
           pip install spotipy
           pip install sqlalchemy
+          pip install pandas
           pip install coverage
 
       - name: apiProjectTest.py
