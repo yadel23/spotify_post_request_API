@@ -35,9 +35,13 @@ def heardcoded_apiInfo():
 
 #Test 3. test to handle if the input is correct
 def user_inputLink():
-    user_artistLink = input('Please enter link here \n')
-    artist_id = user_artistLink.split('artist/')
-    return artist_id[-1]
+    try:
+      user_artistLink = input('Please enter link here \n')
+      artist_id = user_artistLink.split('artist/')
+      return artist_id[-1]
+    except (RuntimeError, TypeError, NameError):
+      return null
+      
 
 
 #Test 1. make test to see vaild connection to api
