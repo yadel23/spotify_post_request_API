@@ -20,3 +20,5 @@ Yadel Negash | yadelnegash10@gmail.com
 ## Work Flow status
 ![example workflow](https://github.com/yadel23/spotify_post_request_API/actions/workflows/style_checker.yaml/badge.svg)
 
+## Unit Tests status
+![example workflow](https://github.com/yadel23/spotify_post_request_API/actions/workflows/Tests.yaml/badge.svg)
