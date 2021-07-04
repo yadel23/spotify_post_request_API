@@ -36,7 +36,8 @@ def heardcoded_apiInfo():
 #Test 3. test to handle if the input is correct
 def user_inputLink():
     try:
-      user_artistLink = input('Please enter link here \n')
+#       user_artistLink = input('Please enter link here \n')
+      user_artistLink = 'https://open.spotify.com/artist/1ThoqLcyIYvZn7iWbj8fsj?si=babe35098fe141a2'
       artist_id = user_artistLink.split('artist/')
       return artist_id[-1]
     except (RuntimeError, TypeError, NameError):
